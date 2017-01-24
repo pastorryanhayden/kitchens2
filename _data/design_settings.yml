@@ -1,11 +1,11 @@
-main_dark_color: '#5C3F23'
+main_dark_color: '#5c3f23'
 main_light_color: '#d5d1bf'
 main_bright_color: '#319827'
-secondary_bright_color: '#3C6E71'
-main_font: "'Martel', serif;"
+secondary_bright_color: '#3c6e71'
+main_font: "'Martel', serif"
 main_font_import_code: "@import 'https://fonts.googleapis.com/css?family=Martel';"
-secondary_font: 
-secondary_font_import_code: 
+secondary_font:
+secondary_font_import_code:
 _comments:
   main_font: "i.e. 'Playfair Display', serif - IMPORTANT - leave off the 'font-family' and the trailing semi-colon!"
   main_font_import_code: "i.e. @import url('https://fonts.googleapis.com/css?family=Playfair+Display'); - IMPORTANT - INCLUDE the trailing-semicolon!"
