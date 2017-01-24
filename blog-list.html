@@ -4,7 +4,7 @@ layout: default
 <div class="blogPost">
 {% for post in site.posts %}
 <div class="blogPost__header">
-        <h1><a href="#">{{post.title}}</a></h1>
+        <h1><a href="{{post.url}}">{{post.title}}</a></h1>
         <p>Written by: {% if post.author %} {{ post.author }} {% else %} Brother Chris Kitchens {% endif %}  {%if post.date%} on {{ post.date | date: "%b %-d, %Y" }} {% endif %}</p>
         {% if post.featured_image %}
         <img src="{{post.featured_image}}" alt="{{post.title}}" style="max-width: 100%;">
