@@ -1,12 +1,11 @@
 ---
 layout: default
-main_image: http://storage.thefoolishnessofpreaching.com/sfc/kitchens/hero.jpg
-
+main_image: 'http://storage.thefoolishnessofpreaching.com/sfc/kitchens/hero.jpg'
 ---
   <main>
     <div class="hero" style="background: url({{page.main_image}}) no-repeat center top; background-size: cover;">
       <div class="hero-wrapper">
-        <h1 class="editable">Chris Kitchens is a preacher who pastors Corinth Missionary Baptist Church in Moulton, Al.  He posts sermons and blog posts here.    </h1>
+        <h1 class="editable">Chris Kitchens is a preacher who pastors Corinth Missionary Baptist Church in Albertville, AL. He posts sermons and blog posts here.</h1>
       </div>
     </div>
     <div class="latest-sermons">
@@ -17,11 +16,11 @@ main_image: http://storage.thefoolishnessofpreaching.com/sfc/kitchens/hero.jpg
         <div class="sermon-teaser">
           {% if item.series_featured_image %}
           {% for img in item.series_featured_image %}
-          <div class="sermon-image"><img src="{{img.url}}">
+          <div class="sermon-image"><img src="{{img.url}}" />
           </div>
           {% endfor %}
           {% else %}
-          <div class="sermon-image"><img src="{{site.data.settings.main_sermon_image}}">
+          <div class="sermon-image"><img src="{{site.data.settings.main_sermon_image}}" />
           </div>
           {% endif %}
           <div class="sermon-text">
@@ -39,10 +38,10 @@ main_image: http://storage.thefoolishnessofpreaching.com/sfc/kitchens/hero.jpg
         <div class="blog-entry">
             {% if post.featured_image %}
             <a href="{{post.url}}">
-            <img src="{{post.featured_image}}" alt="{{post.title}}" class="entry-image"></a>
+            <img src="{{post.featured_image}}" alt="{{post.title}}" class="entry-image" /></a>
             {% else %}
             <a href="{{post.url}}">
-            <img src="{{site.data.settings.main_blog_image}}" alt="" class="entry-image"></a>
+            <img src="{{site.data.settings.main_blog_image}}" alt="" class="entry-image" /></a>
             {% endif %}
             <div class="entry-text">
             <div class="entry-header">
@@ -53,7 +52,7 @@ main_image: http://storage.thefoolishnessofpreaching.com/sfc/kitchens/hero.jpg
                 {{post.content | truncatewords: 20 }}
                 <a href="{{ post.url }}" class="button">Read More</a>
             </div><!--/entry-description-->
-            </div><!//entry-text-->
+            </div><!--//entry-text---->
         </div><!--/blog-entry-->
             {% endfor %}
     </div><!--/blog-listings-->
