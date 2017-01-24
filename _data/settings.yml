@@ -1,8 +1,8 @@
-church_name: Chris Kitchens ~ Pastor & Evangelist
+church_name: 'Chris Kitchens ~ Pastor & Evangelist'
 phone: (256) 783-1169
 email: chris@whatawordisthis.com
-facebook: 
-twitter_url: https://twitter.com/CKit_Eph2_8
+facebook:
+twitter_url: 'https://twitter.com/CKit_Eph2_8'
 youtube:
 address: 901 County Rd. 251
 address2:
@@ -10,5 +10,4 @@ City: Moulton
 State: AL
 Zip: '35650'
 main_sermon_image: /uploads/2.jpg
-main_blog_image: /uploads/2.jpg
-
+main_blog_image: /uploads/1.jpg
