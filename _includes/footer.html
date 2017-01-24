@@ -2,10 +2,12 @@
     <div class="footer-wrapper">
       <div class="footer-info editable">
         <ul>
-          <li><a href="#"><i class="fa fa-laptop"></i>chris@whatawordisthis.com</a></li>
-          <li><a href="#"><i class="fa fa-twitter"></i>@CKit_Eph2_8</a></li>
-          <li><a href="#"><i class="fa fa-phone"></i>(256) 783-1169</a></li>
-          <li><a href="#"><i class="fa fa-envelope"></i>901 County Rd. 251, Moulton, AL 35650</a></li>
+          <li><a href="#"><i class="fa fa-laptop"></i>{{site.data.settings.email}}</a></li>
+          {% if  site.data.settings.twitter_url %}
+          <li><a href="#"><i class="fa fa-twitter"></i>{{site.data.settings.twitter_url}}</a></li>{% endif %}
+          {% if site.data.settings.phone %}
+          <li><a href="#"><i class="fa fa-phone"></i>{{site.data.settings.phone}}</a></li>{% endif %}
+          <li><a href="#"><i class="fa fa-envelope"></i>{{site.data.settings.address}}{% if site.data.settings.address2 %}<br>{{site.data.settings.address2}}{% endif %}, {{site.data.settings.City}}, {{site.data.settings.State}} {{site.data.settings.Zip}}</a></li>
         </ul>
       </div>
       <div class="footer-verse editable">
