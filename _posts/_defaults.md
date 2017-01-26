@@ -7,4 +7,3 @@ featured_image:
 author:
 content_markdown:
 ---
-{{content_markdown}}
