@@ -1,6 +1,6 @@
 ---
 layout: blog-entry
-title: 'Why Call This Site "What A Word is This!"?'
+title: 'Why Is This Site Called "What A Word is This!"?'
 date:
 categories:
 featured_image:
