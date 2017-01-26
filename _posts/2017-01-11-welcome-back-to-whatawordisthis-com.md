@@ -7,10 +7,8 @@ categories:
 featured_image: /uploads/amyyvxj7snuoqhahqfh7-whataword4.png
 author:
   - Brother Chris Kitchens
-content_markdown:
 ---
 
-{{content_markdown}}
 
 Though we did not allow the domain name to expire, [our ministry website](whatawordisthis.com) has been lying dormant for some time now and, frankly, I am coming to grips with the fact that I have vastly underutilized this great medium. Let me give you a brief history of this website.
 
