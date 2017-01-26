@@ -27,7 +27,15 @@ keep_files:
   - assets/js
 
 
-
+page_gen:
+  - data: 'series'
+    template: 'series'
+    name: 'title'
+    dir: 'series'
+  - data: 'sermons'
+    template: 'sermon'
+    name: 'title'
+    dir: 'sermons'
 
 
 #Collections stuff:
