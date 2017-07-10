@@ -27,5 +27,5 @@ File.open("_data/series.json", "w") do |f|
     data = @records.map { |record| record.attributes }
     f.write(data.to_json)
 end
-
+ 
 
