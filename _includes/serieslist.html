@@ -6,8 +6,8 @@
         <div class="serieslistItem column">
             <div class="serieslistItem__thumbnail">
             <a href="{{ item.title | datapage_url: 'series' | prepend: site.baseurl | prepend: site.url }}">
-                {% if item.featured-image %}
-                {% for img in item.featured-image %}
+                {% if item.featured_image %}
+                {% for img in item.featured_image %}
             <img src="{{img.url}}" alt="{{item.title}}">
                 {% endfor %}
                 {% else %}
